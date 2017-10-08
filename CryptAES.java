@@ -25,7 +25,7 @@ public class CryptAES {
 			String name = "bid.dat";
 			File file = new File(name);
 			Scanner in = new Scanner(file);
-			FileOutputStream output = new FileOutputStream("Numbers.dat");
+			FileOutputStream output = new FileOutputStream("asdfads.xlsx");
 			while (in.hasNextLine()) {
 				String Line = in.nextLine();
 				//System.out.println(Line);
